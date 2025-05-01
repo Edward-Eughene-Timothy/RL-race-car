@@ -6,18 +6,18 @@
 
 This project focuses on training an autonomous driving agent using **Reinforcement Learning** in the **CarRacing-v3** environment provided by Gymnasium. The agent learns to drive a car using visual inputs and the **Proximal Policy Optimization (PPO)** algorithm.
 
+
+
+### 1.  Overall Strategy
+
+- **Goal**: Train a reinforcement learning agent to drive autonomously on randomly generated tracks.
+- **Input**: Visual observations (96x96 RGB frames).
+- **Algorithm**: PPO (Proximal Policy Optimization) from `stable-baselines3`.
+- **Output**: Trained model that can navigate tracks efficiently.
+
 ---
 
-### 1. 📋 Overall Strategy
-
-- **🎯 Goal**: Train a reinforcement learning agent to drive autonomously on randomly generated tracks.
-- **📷 Input**: Visual observations (96x96 RGB frames).
-- **🧠 Algorithm**: PPO (Proximal Policy Optimization) from `stable-baselines3`.
-- **🏁 Output**: Trained model that can navigate tracks efficiently.
-
----
-
-### 2. 🧰 System Requirements
+### 2.  System Requirements
 
 | Component      | Specification                 |
 |----------------|-------------------------------|
@@ -29,7 +29,7 @@ This project focuses on training an autonomous driving agent using **Reinforceme
 
 ---
 
-### 3. 📦 Required Libraries
+### 3.  Required Libraries
 
 Install the following libraries before starting:
 
@@ -40,14 +40,14 @@ Install the following libraries before starting:
 - `matplotlib`
 - `swig` (system package, for Box2D)
 
-#### 🛠️ Install SWIG (Fedora):
+####  Install SWIG (Fedora):
 ```bash
 sudo dnf install swig
 ```
 
 ---
 
-### 4. 🛠️ Environment Setup
+### 4.  Environment Setup
 
 Set up a virtual environment using either Conda or venv to manage dependencies.
 
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-### 5. 🧠 Model Development Methodology
+### 5.  Model Development Methodology
 
 - **Data**: Agent uses pixel data from CarRacing-v3.
 - **Action Space**: Continuous or discrete actions (steer, gas, brake).
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 
 ---
 
-### 6. 🚦 Usage Instructions
+### 6.  Usage Instructions
 
 To **train the model**:
 ```bash
