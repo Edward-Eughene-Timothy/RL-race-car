@@ -1,10 +1,12 @@
 
-
-
-
 # 🚗 Self-Driving Car using Reinforcement Learning
 
 This project focuses on training an autonomous driving agent using **Reinforcement Learning** in the **CarRacing-v3** environment provided by Gymnasium. The agent learns to drive a car using visual inputs and the **Proximal Policy Optimization (PPO)** algorithm.
+
+![Python Version](https://img.shields.io/badge/python-3.7.12-blue.svg)
+![OS](https://img.shields.io/badge/OS-Fedora%20Linux-FF6C37?logo=fedora)
+![Gym Environment](https://img.shields.io/badge/Gym-CarRacing--v3-green.svg)
+![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
 
 
 
